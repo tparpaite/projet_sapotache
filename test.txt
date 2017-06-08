@@ -1,0 +1,9 @@
+Lire le README
+
+mkdir build
+cd build
+cmake ..
+make install
+cd bin 
+gdb ./client_server_test 
+run ../../src/tests/parser_examples/sapo1.ok.txt ../lib/libclient.so ../lib/libhuman.so ../lib/libclient.so

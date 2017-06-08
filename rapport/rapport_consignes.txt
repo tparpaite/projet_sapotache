@@ -1,0 +1,50 @@
+### Consignes du rapport
+
+Structure generale
+Du plus general au plus precis, puis on elargit (double entonnoir)
+
+ \   /
+  \ /
+   |
+   |
+  / \
+ /   \
+
+
+[DOMAINE]
+- Introduction (domaine)
+- Sujet (regles du jeu)
+- Analyse de l'existant (quelles idees en tirer ?)
+
+
+[CONCEPTION]
+- Cahier des charges (besoins)
+- Traduction du sujet
+       |- Besoins fonctionnels (ce que doit faire l'application)
+       	  Verbes : ouvrir, afficher, save
+       |- Besoins non fonctionnels (comportement du logiciel)
+       	  Adjectifs : interopérabilité, robustesse, rapidité
+       |- Contraintes : langage
+- Architecture (modules : .h et .c), comment ils communiquent (ULM)
+
+
+[IMPLEMENTATION]
+- Logiciel : captures d'écran, lignes de commande
+- Algorithmes et structures de données (plateau, cartes, strategies)
+  |- Strategie de triche ? Proteger le plateau, la pioche
+
+
+[PREUVE]
+- Tests (TDD)
+  |- Tests unitaires (voir les limites de la fonction)
+  |- Tests d'integration (deux modules qui communiquent)
+  |- Tests sur la memoire (valgrind)
+  |- Tests de couverture, performance (gcov, gprof)
+
+
+[Bilan]
+- Bilan, perspectives
+
+
+
+

@@ -1,0 +1,1 @@
+add_library(parsing SHARED parser.c lexer.c)

@@ -1,0 +1,10 @@
+add_library(server SHARED server.c)
+add_library(client SHARED client.c)
+add_library(human SHARED human.c)
+add_library(game STATIC game.c)
+add_library(game_client STATIC game_client.c)
+add_library(game_server STATIC game_server.c)
+add_library(client_strategy SHARED client_strategy.c)
+
+target_link_libraries(game_client game)
+target_link_libraries(game_server game)
